@@ -6,17 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Дереко Дар'я. Портфоліо</title>
     <link rel="stylesheet" href="styles.css" />
+    <link type="image/x-icon" href="img/icon.ico" rel="icon" />
   </head>
   <body>
     <div class="container">
       <div class="info">
-        <img src="avatar.jpg" alt="Тут має бути дідькове фото" class="avatar" />
-        <h1>Привіт!</h1>
-        <h1>Мене звуть Даша, я графічний дизайнер</h1>
+        <img
+          src="img/avatar.jpg"
+          alt="Тут має бути дідькове фото"
+          class="avatar"
+        />
+
+        <div class="info-text">
+          <h1>
+            Привіт! <br />
+            Мене звуть Даша, <br />
+            я <span class="color-change">графічний дизайнер</span>
+          </h1>
+        </div>
       </div>
 
-      <div class="specialization">
-        <ul>
+      <div class="card">
+        <ul class="list">
           <li>створюю ілюстрації</li>
           <li>...постери, банери, листівки, візитки...</li>
           <li>оформлюю пости в соц. мережах</li>
@@ -24,24 +35,37 @@
         </ul>
       </div>
 
-      <h2>Професійні навички:</h2>
-      <ul>
-        <li>векторна/растрова графіка</li>
-        <li>художня обробка та деформація фото (+колаж)</li>
-        <li>a little bit шейпова та покадрова анімація</li>
-      </ul>
+      <div class="card">
+        <h2>Професійні навички</h2>
+        <ul class="list">
+          <li>векторна/растрова графіка</li>
+          <li>художня обробка та деформація фото (+колаж)</li>
+          <li>a little bit шейпова та покадрова анімація</li>
+        </ul>
 
-      <p>
-        Працюю в Adobe Photoshop/Illustrator/Animate та трішки After Effects
-      </p>
+        <p>
+          Працюю в
+          <span class="color-change">Adobe Photoshop/Illustrator/Animate</span>
+          та трішки
+          <span class="color-change">After Effects</span>
+        </p>
+      </div>
 
-      <div>
-        <h2>Зв'язатися зі мною:</h2>
-        <a href="https://t.me/daryadereko" target="_blank">Telegram</a>
-        <a href="https://www.instagram.com/daryadereko/" target="_blank"
-          >Instagram</a
-        >
-        <a href="d.dereko2003@gmail.com" target="_blank">Gmail</a>
+      <div class="contact">
+        <!-- <div class="card"> -->
+        <h2>Зв'язатися зі мною</h2>
+        <ul class="contact-list">
+          <li>
+            <a href="https://t.me/daryadereko" target="_blank">Telegram</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/daryadereko/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li><a href="d.dereko2003@gmail.com" target="_blank">Gmail</a></li>
+        </ul>
+        <!-- </div> -->
       </div>
     </div>
   </body>

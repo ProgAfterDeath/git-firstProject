@@ -22,13 +22,6 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 700px) {
-  .info {
-    text-align: center;
-    display: block;
-  }
-}
-
 .info h1 {
   color: rgb(45, 25, 45);
   margin: 0;
@@ -111,4 +104,26 @@ li::marker {
 
 .color-change {
   color: #ff62d1;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: medium;
+  }
+  .info {
+    text-align: center;
+    display: block;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .list li {
+    font-size: 20px;
+  }
+  .card {
+    padding: 5px 20px;
+  }
+  .card h2 {
+    text-align: center;
+  }
 }

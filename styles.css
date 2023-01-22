@@ -108,6 +108,9 @@ li::marker {
   body {
     font-size: medium;
   }
+  .avatar {
+    width: 50%;
+  }
   .info {
     text-align: center;
     display: block;
@@ -123,5 +126,10 @@ li::marker {
   }
   .card h2 {
     text-align: center;
+  }
+  .info-text {
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 15px;
   }
 }
